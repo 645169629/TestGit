@@ -15,3 +15,7 @@
 HEAD表示当前版本
 
 `git reset --hard HEAD^`：回退到上个版本
+
+`git reset --hard HEAD~100`：回退到上100个版本
+
+`git reset --hard 1094a`：回到某个版本
