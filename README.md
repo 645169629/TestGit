@@ -18,4 +18,10 @@ HEAD表示当前版本
 
 `git reset --hard HEAD~100`：回退到上100个版本
 
-`git reset --hard 1094a`：回到某个版本
+`git reset --hard commit_id`：回到某个版本
+
+`git rerflog`：记录每次命令
+
+`git checkout -- file`：丢弃某个文件工作区的修改（回到最近一次git commit 或git add的状态）
+
+`git reset HEAD <file>`：把暂存区的修改撤销掉
